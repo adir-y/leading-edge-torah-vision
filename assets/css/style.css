@@ -364,6 +364,42 @@ blockquote p:last-child { margin-bottom: 0; }
 }
 .try-this strong { color: var(--ink-med); }
 
+.contemporary-voice {
+  margin-top: 0.8rem;
+  padding: 0.85rem 1rem;
+  background: #EAF6F9;
+  border-left: 4px solid var(--ink-med);
+  border-radius: 0 6px 6px 0;
+  font-size: 0.95rem;
+}
+.contemporary-voice .label {
+  color: var(--ink-med);
+  font-weight: 700;
+  display: block;
+  margin-bottom: 0.3rem;
+}
+
+.go-deeper {
+  margin-top: 0.8rem;
+  padding: 0.85rem 1rem;
+  background: #fff;
+  border-left: 4px solid var(--stone-med);
+  border-radius: 0 6px 6px 0;
+  font-size: 0.93rem;
+  color: var(--stone-dark);
+}
+.go-deeper .label {
+  color: var(--stone-med);
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  font-size: 0.78rem;
+  display: block;
+  margin-bottom: 0.5rem;
+}
+.go-deeper p { margin: 0 0 0.7rem; }
+.go-deeper p:last-child { margin-bottom: 0; }
+
 .domain-card {
   background: #fff;
   border: 1px solid #e5e0d8;
