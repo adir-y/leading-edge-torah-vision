@@ -313,6 +313,16 @@ img { max-width: 100%; }
   margin: 1.6rem 0 0.6rem;
 }
 
+.term-translit {
+  display: inline-block;
+  font-weight: 400;
+  font-style: italic;
+  font-size: 0.8em;
+  color: var(--stone-med);
+  margin-left: 0.5rem;
+}
+.term-translit em { font-style: italic; }
+
 .doc-body h4 {
   color: var(--ink-med);
   font-size: 1rem;
